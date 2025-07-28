@@ -98,9 +98,12 @@
       <div class="content-box">
         <h2>Get In Touch</h2>
         <div class="contact-options">
-          <a href="mailto:mennaalaa4477@gmail.com" class="contact-option" target="_blank">Gmail</a>
+          <a href="mailto:mennaalaa4477@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Menna,%0A%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%0A%0ABest%20regards," class="contact-option" target="_blank" onclick="openEmail()">Gmail</a>
           <a href="https://www.linkedin.com/in/menna-alaa-abdallah-b6107228b" class="contact-option" target="_blank">LinkedIn</a>
           <a href="https://github.com/Menna-Alaa4477" class="contact-option" target="_blank">GitHub</a>
+        </div>
+        <div class="email-fallback">
+          <p>Or copy my email: <span id="email-text">mennaalaa4477@gmail.com</span> <button onclick="copyEmail()" class="copy-btn">Copy</button></p>
         </div>
       </div>
     </section>

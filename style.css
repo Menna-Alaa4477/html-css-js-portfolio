@@ -260,6 +260,42 @@ main {
   transform: translateY(-2px) scale(1.04);
 }
 
+.email-fallback {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #23232b;
+  border-radius: 10px;
+  border: 1px solid #6a82fb;
+}
+
+.email-fallback p {
+  margin: 0;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.email-fallback span {
+  color: #6a82fb;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.copy-btn {
+  background: #6a82fb;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: #5a6fd8;
+}
+
 .cv-button {
   display: inline-block;
   margin-top: 1.5rem;
