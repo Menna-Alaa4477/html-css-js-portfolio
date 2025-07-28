@@ -27,7 +27,7 @@ A modern, responsive portfolio website showcasing my skills and projects in Comp
 
 ## Live Demo
 
-Visit the live website: [Your GitHub Pages URL will be here]
+Visit the live website: [https://menna-alaa4477.github.io/html-css-js-portfolio/](https://menna-alaa4477.github.io/html-css-js-portfolio/)
 
 ## Local Development
 
